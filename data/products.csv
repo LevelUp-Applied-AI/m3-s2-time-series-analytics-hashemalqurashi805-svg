@@ -1,0 +1,301 @@
+product_id,name,category,unit_price
+1,Action Camera 4K,Electronics,349.29
+2,E-Reader 8-inch,Electronics,220.3
+3,Solar Power Bank,Electronics,75.76
+4,Smart Plug 4-Pack,Electronics,210.21
+5,Portable Bluetooth Speaker,Electronics,198.61
+6,External DVD Drive,Electronics,95.08
+7,Portable SSD 1TB,Electronics,255.61
+8,Wireless Charging Pad,Electronics,364.24
+9,Electric Standing Desk Converter,Electronics,376.35
+10,Robot Vacuum Cleaner,Electronics,449.59
+11,Tablet Stylus Pen,Electronics,112.49
+12,Car Dash Camera,Electronics,320.86
+13,Wireless Keyboard and Mouse Combo,Electronics,441.05
+14,Network Attached Storage,Electronics,175.76
+15,Laptop Stand,Electronics,364.67
+16,Streaming Media Player,Electronics,416.77
+17,HDMI Switch 4-Port,Electronics,215.79
+18,LED Strip Lights 32ft,Electronics,328.26
+19,Smart Thermostat,Electronics,346.49
+20,Portable Projector,Electronics,263.84
+21,Smart Doorbell Camera,Electronics,235.91
+22,Air Quality Monitor,Electronics,134.57
+23,Drone with Camera,Electronics,493.78
+24,Smart Lock Deadbolt,Electronics,480.9
+25,Wireless Mouse,Electronics,415.68
+26,Noise Machine,Electronics,57.48
+27,Wireless Bluetooth Headphones,Electronics,212.09
+28,Smart LED Desk Lamp,Electronics,70.59
+29,USB Flash Drive 256GB,Electronics,413.4
+30,Digital Voice Recorder,Electronics,196.49
+31,Smart Light Bulbs 6-Pack,Electronics,249.94
+32,VR Headset,Electronics,323.04
+33,USB Microphone,Electronics,230.07
+34,USB-C Charging Hub,Electronics,325.67
+35,Digital Photo Frame,Electronics,86.62
+36,Noise-Cancelling Earbuds,Electronics,242.56
+37,WiFi Range Extender,Electronics,469.17
+38,Webcam HD 1080p,Electronics,468.88
+39,Cable Management Kit,Electronics,494.09
+40,Smart Scale,Electronics,435.7
+41,Smart Home Hub,Electronics,457.34
+42,Mechanical Keyboard,Electronics,380.42
+43,Power Bank 20000mAh,Electronics,182.24
+44,Wireless Presenter Remote,Electronics,137.78
+45,27-inch 4K Monitor,Electronics,114.42
+46,Mini PC Desktop,Electronics,284.02
+47,Portable Monitor 15-inch,Electronics,307.35
+48,Surge Protector 12-Outlet,Electronics,435.56
+49,Fitness Tracker Band,Electronics,277.09
+50,Graphics Tablet,Electronics,107.54
+51,Mandoline Slicer,Home & Kitchen,49.98
+52,Salt and Pepper Grinder Set,Home & Kitchen,54.28
+53,Stainless Steel Water Bottle,Home & Kitchen,30.04
+54,Oven Mitts Heat Resistant,Home & Kitchen,60.93
+55,Desk Organizer Wood,Home & Kitchen,94.95
+56,Essential Oil Diffuser,Home & Kitchen,40.4
+57,Welcome Door Mat,Home & Kitchen,142.17
+58,Airtight Food Storage Set,Home & Kitchen,92.33
+59,Laundry Hamper Collapsible,Home & Kitchen,32.2
+60,Tool Set 39-Piece,Home & Kitchen,57.31
+61,Spice Rack Organizer 20-Jar,Home & Kitchen,66.33
+62,Extension Cord 25ft,Home & Kitchen,114.48
+63,First Aid Kit 250-Piece,Home & Kitchen,56.96
+64,Dish Drying Rack,Home & Kitchen,94.66
+65,Closet Organizer Shelf,Home & Kitchen,40.63
+66,Bamboo Cutting Board Set,Home & Kitchen,67.4
+67,Pour-Over Coffee Dripper,Home & Kitchen,72.2
+68,Compost Bin Countertop,Home & Kitchen,119.12
+69,Knife Block Set 14-Piece,Home & Kitchen,122.66
+70,Electric Kettle 1.7L,Home & Kitchen,141.08
+71,Indoor Plant Pot Set,Home & Kitchen,32.05
+72,Vacuum Insulated Tumbler,Home & Kitchen,104.61
+73,Linen Table Runner,Home & Kitchen,94.75
+74,Electric Can Opener,Home & Kitchen,29.39
+75,Cleaning Spray Bottles Set,Home & Kitchen,16.24
+76,Kitchen Scale Digital,Home & Kitchen,130.07
+77,Bread Box Stainless Steel,Home & Kitchen,57.65
+78,Immersion Blender,Home & Kitchen,125.18
+79,Shower Caddy Organizer,Home & Kitchen,55.07
+80,Trash Can Touchless 13-Gallon,Home & Kitchen,44.55
+81,Step Stool Folding,Home & Kitchen,106.8
+82,Floating Wall Shelves 3-Pack,Home & Kitchen,34.9
+83,Non-Stick Frying Pan 12-inch,Home & Kitchen,53.26
+84,Scented Candle Set 3-Pack,Home & Kitchen,115.85
+85,Cast Iron Skillet 10-inch,Home & Kitchen,129.63
+86,Smoke Detector 2-Pack,Home & Kitchen,126.75
+87,Microfiber Cleaning Cloths 24-Pack,Home & Kitchen,19.64
+88,Ice Cube Tray Silicone 4-Pack,Home & Kitchen,58.22
+89,LED Night Light 4-Pack,Home & Kitchen,82.82
+90,Herb Garden Kit Indoor,Home & Kitchen,107.96
+91,Velvet Hangers 50-Pack,Home & Kitchen,51.92
+92,Memory Foam Bath Mat,Home & Kitchen,129.44
+93,French Press Coffee Maker,Home & Kitchen,92.49
+94,Throw Pillow Covers 4-Pack,Home & Kitchen,100.2
+95,Mixing Bowl Set,Home & Kitchen,44.12
+96,Blackout Curtains 2-Panel,Home & Kitchen,54.35
+97,Picture Frame Set 10-Pack,Home & Kitchen,145.48
+98,Reusable Grocery Bags 6-Pack,Home & Kitchen,22.94
+99,Ceramic Bakeware Set,Home & Kitchen,124.38
+100,Silicone Baking Mat Set,Home & Kitchen,35.61
+101,Sports Bra High Support,Clothing,51.12
+102,Classic Crew Neck T-Shirt,Clothing,104.46
+103,Overalls Denim,Clothing,23.01
+104,Quilted Puffer Vest,Clothing,96.83
+105,Fleece Zip-Up Hoodie,Clothing,104.71
+106,Baseball Cap,Clothing,52.67
+107,Ankle Boot Leather,Clothing,118.13
+108,Swim Trunks Quick-Dry,Clothing,85.38
+109,Trench Coat,Clothing,30.17
+110,Maxi Skirt,Clothing,18.08
+111,Compression Leggings,Clothing,50.4
+112,Oxford Dress Shirt,Clothing,63.18
+113,Crossbody Bag,Clothing,114.07
+114,Dress Socks 5-Pack,Clothing,24.67
+115,Stretch Denim Jeans,Clothing,67.67
+116,Denim Jacket,Clothing,48.56
+117,Tank Top 3-Pack,Clothing,58.85
+118,Boxer Briefs 6-Pack,Clothing,28.05
+119,Casual Button-Down Shirt,Clothing,90.04
+120,Romper Casual,Clothing,38.46
+121,Watch Minimalist,Clothing,24.83
+122,Down Winter Jacket,Clothing,54.84
+123,Leather Belt,Clothing,44.69
+124,Athletic Jogger Pants,Clothing,76.38
+125,Wallet Bifold Leather,Clothing,30.63
+126,Aviator Sunglasses,Clothing,92.48
+127,Cotton Polo Shirt,Clothing,95.79
+128,Canvas Sneakers,Clothing,119.05
+129,Cargo Pants Relaxed Fit,Clothing,84.44
+130,Lightweight Rain Jacket,Clothing,21.68
+131,Thermal Base Layer Top,Clothing,62.08
+132,Gloves Touchscreen,Clothing,100.37
+133,V-Neck Sweater,Clothing,53.27
+134,Tote Bag Canvas,Clothing,80.29
+135,Silk Neck Tie,Clothing,60.07
+136,Windbreaker Jacket,Clothing,13.25
+137,Yoga Pants,Clothing,24.6
+138,Scarf Cashmere Blend,Clothing,25.18
+139,Slim Fit Chino Pants,Clothing,81.27
+140,Linen Shorts,Clothing,110.12
+141,Flannel Pajama Set,Clothing,36.29
+142,Beanie Knit Cap,Clothing,75.38
+143,Backpack 30L,Clothing,118.63
+144,Performance Running Shorts,Clothing,63.79
+145,Merino Wool Socks 6-Pack,Clothing,86.92
+146,Blazer Slim Fit,Clothing,22.21
+147,Graphic Print Sweatshirt,Clothing,76.03
+148,Wrap Dress,Clothing,53.47
+149,Wool Blend Peacoat,Clothing,120.0
+150,Cardigan Open-Front,Clothing,87.9
+151,Zero to One,Books,9.74
+152,SQL Cookbook,Books,8.32
+153,Educated: A Memoir,Books,14.62
+154,The Hobbit,Books,14.33
+155,The Great Gatsby,Books,10.05
+156,A Brief History of Time,Books,11.74
+157,Mindset by Carol Dweck,Books,8.98
+158,The Tipping Point,Books,11.43
+159,Storytelling with Data,Books,10.19
+160,1984,Books,14.38
+161,Factfulness,Books,14.98
+162,Start with Why,Books,12.24
+163,Fahrenheit 451,Books,11.57
+164,The Art of Statistics,Books,12.82
+165,Cosmos by Carl Sagan,Books,12.64
+166,The Power of Habit,Books,8.31
+167,The Art of War,Books,8.26
+168,Freakonomics,Books,8.99
+169,The Alchemist,Books,13.99
+170,Hands-On Machine Learning,Books,9.51
+171,The Lean Startup,Books,8.94
+172,Range: Why Generalists Triumph,Books,11.86
+173,Introduction to Data Science,Books,12.14
+174,Pride and Prejudice,Books,9.94
+175,Dune,Books,13.1
+176,The Innovators Dilemma,Books,10.95
+177,"Thinking, Fast and Slow",Books,11.85
+178,Designing Data-Intensive Applications,Books,9.82
+179,Brave New World,Books,12.55
+180,Project Hail Mary,Books,9.14
+181,The Catcher in the Rye,Books,11.19
+182,Sapiens: A Brief History,Books,14.61
+183,Deep Work,Books,12.74
+184,Good to Great,Books,14.58
+185,Grit by Angela Duckworth,Books,9.0
+186,Little Women,Books,9.43
+187,Harry Potter Box Set,Books,12.41
+188,Quiet: The Power of Introverts,Books,9.89
+189,Crime and Punishment,Books,12.43
+190,Outliers,Books,12.52
+191,Python for Everybody,Books,13.0
+192,To Kill a Mockingbird,Books,11.95
+193,The Signal and the Noise,Books,12.53
+194,Lord of the Rings Trilogy,Books,11.58
+195,Clean Code,Books,9.15
+196,The Midnight Library,Books,13.75
+197,Atomic Habits,Books,10.21
+198,The Pragmatic Programmer,Books,13.51
+199,Meditations by Marcus Aurelius,Books,10.65
+200,Becoming,Books,14.75
+201,Wrist Wraps Weightlifting,Sports,62.93
+202,Running Armband Phone Holder,Sports,142.03
+203,Skateboard Complete,Sports,146.95
+204,Hiking Poles Collapsible,Sports,136.65
+205,Tennis Racket Pro,Sports,41.39
+206,Binoculars 10x42,Sports,120.0
+207,Speed Ladder Agility,Sports,64.46
+208,Pull-Up Bar Doorway,Sports,184.91
+209,Sports Tape Athletic,Sports,133.25
+210,Adjustable Dumbbells 25lb Pair,Sports,83.48
+211,Boxing Gloves 12oz,Sports,158.84
+212,Resistance Bands Set 5-Pack,Sports,140.47
+213,Swimming Goggles Anti-Fog,Sports,92.38
+214,Referee Whistle,Sports,99.69
+215,Ab Roller Wheel,Sports,96.21
+216,Ankle Brace Support,Sports,80.49
+217,Hydration Backpack 2L,Sports,101.7
+218,Sleeping Bag 20F,Sports,68.06
+219,Insulated Water Bottle 32oz,Sports,191.23
+220,Snorkel Set,Sports,111.31
+221,Golf Balls 24-Pack,Sports,147.92
+222,Table Tennis Paddle Set,Sports,185.91
+223,Soccer Ball Size 5,Sports,57.32
+224,Gym Bag Duffle,Sports,132.59
+225,Scoreboard Portable,Sports,31.08
+226,Cooler Bag 30-Can,Sports,71.55
+227,Climbing Chalk Bag,Sports,157.56
+228,Inline Skates Adult,Sports,171.37
+229,Croquet Set 6-Player,Sports,132.42
+230,Cycling Gloves Padded,Sports,29.19
+231,Jump Rope Speed Cable,Sports,59.41
+232,Yoga Mat 6mm Thick,Sports,32.32
+233,Frisbee Ultimate,Sports,121.43
+234,Badminton Set 4-Player,Sports,30.65
+235,Push-Up Board,Sports,67.88
+236,Kayak Paddle,Sports,186.97
+237,Sweatband Set,Sports,164.54
+238,Headlamp Rechargeable,Sports,16.98
+239,Exercise Ball 65cm,Sports,190.45
+240,Camping Hammock,Sports,140.25
+241,Life Jacket Adult,Sports,187.5
+242,Fishing Rod Combo,Sports,40.24
+243,Knee Sleeve Compression,Sports,107.09
+244,Bocce Ball Set,Sports,141.75
+245,Volleyball Net Portable,Sports,140.2
+246,Shin Guards Soccer,Sports,113.5
+247,Kettlebell 35lb,Sports,38.07
+248,Baseball Glove Leather,Sports,17.57
+249,Foam Roller 18-inch,Sports,50.18
+250,Basketball Indoor/Outdoor,Sports,168.81
+251,Hair Mask Repair,Health & Beauty,8.16
+252,Green Tea Extract Capsules,Health & Beauty,5.32
+253,Deodorant Natural 3-Pack,Health & Beauty,30.32
+254,Dry Shampoo Spray,Health & Beauty,21.41
+255,Shampoo Sulfate-Free,Health & Beauty,10.89
+256,Hair Ties No-Crease 50-Pack,Health & Beauty,24.23
+257,Concealer Stick,Health & Beauty,44.73
+258,Body Lotion Unscented 16oz,Health & Beauty,27.11
+259,Melatonin 5mg 120ct,Health & Beauty,5.49
+260,Heating Pad Electric,Health & Beauty,28.69
+261,Mascara Waterproof,Health & Beauty,15.86
+262,Body Wash Gel 3-Pack,Health & Beauty,34.1
+263,Aromatherapy Essential Oils Set,Health & Beauty,54.42
+264,Lip Balm Variety 8-Pack,Health & Beauty,27.59
+265,Mouthwash Alcohol-Free,Health & Beauty,55.22
+266,Turmeric Curcumin Supplement,Health & Beauty,5.38
+267,Hand Cream Repair 3-Pack,Health & Beauty,47.32
+268,Eye Cream Anti-Aging,Health & Beauty,18.76
+269,Electrolyte Powder 30-Pack,Health & Beauty,30.89
+270,Setting Spray Matte Finish,Health & Beauty,25.59
+271,Collagen Peptides Powder,Health & Beauty,25.05
+272,Jade Roller and Gua Sha Set,Health & Beauty,54.07
+273,Fish Oil Omega-3 180ct,Health & Beauty,34.5
+274,Retinol Serum 1oz,Health & Beauty,19.82
+275,Brow Pencil Retractable,Health & Beauty,59.42
+276,Vitamin C Serum,Health & Beauty,41.1
+277,Multivitamin Daily 90ct,Health & Beauty,29.16
+278,Makeup Brush Set 14-Piece,Health & Beauty,12.69
+279,Exfoliating Face Scrub,Health & Beauty,46.09
+280,Bath Bombs Gift Set 12-Pack,Health & Beauty,5.32
+281,Electric Toothbrush,Health & Beauty,53.6
+282,Hair Oil Treatment,Health & Beauty,44.01
+283,Probiotic 50 Billion CFU,Health & Beauty,11.09
+284,Sunscreen SPF 50 Broad Spectrum,Health & Beauty,20.67
+285,Hyaluronic Acid Serum,Health & Beauty,12.35
+286,Eyeshadow Palette 18-Color,Health & Beauty,28.16
+287,Moisturizing Face Cream,Health & Beauty,23.22
+288,Dental Floss Picks 300ct,Health & Beauty,6.74
+289,Blush Palette 6-Shade,Health & Beauty,41.64
+290,Protein Powder Whey 2lb,Health & Beauty,57.16
+291,Foundation Liquid Medium Coverage,Health & Beauty,57.78
+292,Epsom Salt 5lb Bag,Health & Beauty,59.06
+293,Eyeliner Pen Felt Tip,Health & Beauty,11.53
+294,Facial Cleanser Gentle,Health & Beauty,31.9
+295,Conditioner Deep Moisture,Health & Beauty,32.26
+296,Nail Care Kit 12-Piece,Health & Beauty,42.5
+297,Makeup Remover Wipes 3-Pack,Health & Beauty,12.01
+298,Whitening Toothpaste 3-Pack,Health & Beauty,46.31
+299,Cotton Rounds 100ct,Health & Beauty,47.92
+300,Vitamin D3 Supplement 120ct,Health & Beauty,26.99

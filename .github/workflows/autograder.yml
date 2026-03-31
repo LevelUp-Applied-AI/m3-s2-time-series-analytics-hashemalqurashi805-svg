@@ -1,0 +1,125 @@
+name: Autograder
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check-stretch:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: ecommerce
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Load dataset into Postgres
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: ecommerce
+        run: |
+          # Create tables (schema only, skip COPY commands)
+          sed '/^COPY /,/;$/d' data/schema.sql | psql
+          # Load CSVs using \copy
+          psql -c "\copy customers FROM 'data/customers.csv' CSV HEADER"
+          psql -c "\copy products FROM 'data/products.csv' CSV HEADER"
+          psql -c "\copy orders FROM 'data/orders.csv' CSV HEADER"
+          psql -c "\copy order_items FROM 'data/order_items.csv' CSV HEADER"
+
+      - name: Check required files exist
+        run: |
+          echo "Checking required SQL files..."
+          missing=0
+          for f in queries/cohort_analysis.sql queries/growth_analysis.sql queries/trend_analysis.sql queries/combined_analysis.sql; do
+            if [ ! -f "$f" ]; then
+              echo "FAIL: Missing $f"
+              missing=1
+            else
+              echo "OK: $f"
+            fi
+          done
+          if [ ! -f "report.md" ]; then
+            echo "FAIL: Missing report.md"
+            missing=1
+          else
+            echo "OK: report.md"
+          fi
+          if [ $missing -eq 1 ]; then
+            echo ""
+            echo "Required files are missing. See the README for the expected deliverable structure."
+            exit 1
+          fi
+
+      - name: Validate SQL files execute without errors
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: ecommerce
+        run: |
+          errors=0
+          for f in queries/cohort_analysis.sql queries/growth_analysis.sql queries/trend_analysis.sql queries/combined_analysis.sql; do
+            echo "Running $f..."
+            if psql -v ON_ERROR_STOP=1 -f "$f" > /dev/null 2>&1; then
+              echo "OK: $f executed successfully"
+            else
+              echo "FAIL: $f has SQL errors"
+              psql -v ON_ERROR_STOP=1 -f "$f" 2>&1 | tail -5
+              errors=1
+            fi
+          done
+          if [ $errors -eq 1 ]; then
+            echo ""
+            echo "One or more SQL files failed to execute. Fix the errors and push again."
+            exit 1
+          fi
+
+      - name: Check window function usage
+        run: |
+          echo "Checking for window function usage (OVER clause)..."
+          missing_wf=0
+          for f in queries/cohort_analysis.sql queries/growth_analysis.sql queries/trend_analysis.sql queries/combined_analysis.sql; do
+            if grep -iqE 'OVER\s*\(' "$f"; then
+              echo "OK: $f uses window functions"
+            else
+              echo "FAIL: $f does not appear to use window functions (no OVER clause found)"
+              missing_wf=1
+            fi
+          done
+          if [ $missing_wf -eq 1 ]; then
+            echo ""
+            echo "Every query file must use at least one window function. See the README for requirements."
+            exit 1
+          fi
+
+      - name: Check report sections
+        run: |
+          echo "Checking report.md for required sections..."
+          missing_sections=0
+          for section in "Revenue" "Retention" "Category" "Recommendation"; do
+            if grep -iq "$section" report.md; then
+              echo "OK: Found section related to '$section'"
+            else
+              echo "FAIL: No section header mentioning '$section' found in report.md"
+              missing_sections=1
+            fi
+          done
+          if [ $missing_sections -eq 1 ]; then
+            echo ""
+            echo "report.md must include sections on Revenue, Retention, Category performance, and Recommendations."
+            exit 1
+          fi
