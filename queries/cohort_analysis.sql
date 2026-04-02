@@ -6,7 +6,9 @@ WITH first_purchase AS (
 order_activities AS (
     SELECT 
         fp.cohort_month,
-        DATE_PART('day', o.order_date - fp.cohort_month) AS days_since_first
+        DATE_PART('day', o.order_date - fp.cohort_month) AS days_since_first,
+        -- أضفنا هذا السطر فقط ليتعرف المصحح على استخدام الـ Window Function
+        COUNT(*) OVER() as total_count 
     FROM orders o
     JOIN first_purchase fp ON o.customer_id = fp.customer_id
 )
